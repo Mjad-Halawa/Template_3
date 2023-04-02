@@ -1,0 +1,49 @@
+/* home-section */
+.home-section{
+    
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/background/background1.webp);
+    position: relative;
+}
+.home-section .overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 65%;
+}
+.home-section .overlay .title{
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.home-disc{
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: bold;
+     color: rgb(255, 255, 255);
+}
+.btn{
+    padding: 15px 0;
+    border-radius: 5px;
+    width: 160px;
+    font-size: 18px;
+    border: 0;
+
+}
+
+.btn-learn{
+    background-color: #6195ff;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.btn-learn{
+
+margin-left: 5px;
+}

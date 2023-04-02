@@ -1,0 +1,59 @@
+/* touch-section*/
+.touch-content{
+    overflow: hidden;
+    text-align: center;
+}
+.touch-item{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+.touch-item >a>i{
+   color: #3879fb;
+   margin-bottom: 10px;
+}
+.touch-title{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.form{
+    width: 70%;
+    
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.form form input{
+    border: none;
+    background-color: #f9f9f9;
+    width:49%;
+    padding: 15px 0px;
+    
+    border-radius: 10px;
+}
+.form form .majd{
+    width: 100%;
+    margin: 10px 0;
+}
+.form form .majd1{
+    margin: 10px 0; 
+    margin-right: 10px;
+}
+
+.form form  textarea{
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    background-color: #f9f9f9;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+.form form button{
+    background-color: #3879fb;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,82 @@
+/*first-section*/
+.header-section{
+    text-align: center;
+    
+}
+.title-sectoin{
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 35px;
+}
+.line{
+    display: block;
+    background-color: #6195ff;
+    width: 60px;
+    height: 3px;
+    margin: 0px auto 70px auto;
+}
+.about-content{
+    display: inline-block;
+}
+.about-item{
+    text-align: center;
+    float: left;
+    width: 30%;
+    border: 1px solid rgb(209, 209, 209);
+    padding: 30px 15px;
+}
+.about-item:hover .about-title{
+    color: #fff;
+}
+.center{
+    margin:0 5% ;
+}
+.icon{
+    color: #3879fb;
+    margin-bottom: 10px;
+}
+.about-title{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    transition: color 0.5s;
+}
+
+.about-desc{
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #999;
+}
+.btn-about{
+    color: #6195ff;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+.ltr-effect{
+    position: relative;
+}
+.ltr-effect:after , .pricing-item:after{
+    position: absolute;
+    content: "";
+    background-color: #333;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;/* لجعل الشكل خلف الكلام*/
+}
+.ltr-effect:after{
+    width: 0;
+    transition: width 0.5s;
+}
+.pricing-item:after{
+    height: 0;
+    transition: height 0.5s;
+}
+.pricing-item:hover:after{
+    height: 100%;
+}
+.ltr-effect:hover:after{
+    width: 100%;
+}

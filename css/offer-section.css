@@ -1,0 +1,32 @@
+/*offer-section*/
+.offer-content{
+    overflow: hidden;
+}
+
+.offer-item{
+    width: 30%;
+    border: 1px solid #e8e8e8;
+    padding: 20px 15px 25px 70px;
+    float: left;
+    position: relative;
+    margin-bottom: 40px;
+    line-height: 25px;
+
+}
+
+.offer-title{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.5s;
+}
+.offer-item:hover .offer-title{
+    color: #fff;
+} 
+.offer-desc{
+    color: #999;
+}
+.offer-item .icon{
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}

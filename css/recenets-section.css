@@ -1,0 +1,53 @@
+/* recenets-section*/
+.recents{
+    background-color: #f9f9f9;
+}
+.recents-content{
+    overflow: hidden;
+
+}
+.recents-item{
+    float: left;
+    width: 30%;
+    background-color: #fff;
+}
+.recents-item-img{
+    width: 100%;
+}
+.recents-item-img img{
+    width: 100%;
+}
+.recents-item-icon{
+    margin: 20px 20px 20px 0px;
+}
+.recents-item-icon >a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.recents-item-icon >a>i{
+    color: #3879fb;
+    margin-right: 5px;
+}
+.recents-item-desc{
+    margin-left: 10px;
+}
+.item-desc-title{
+    text-transform: capitalize;
+    margin-bottom: 10px ;
+    font-size: 20px;
+}
+.recents-desc{
+    color: #8c8c8c;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.recents-btn{
+    padding: 5px 0px;
+    background-color: #fff;
+    color: #3879fb;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}

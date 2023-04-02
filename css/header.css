@@ -1,0 +1,73 @@
+/* header */
+.header{
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    color: rgb(4, 4, 4);
+    background-color: rgb(255, 255, 255);
+}
+.header .container .logo{
+    width: 40%;
+    float: left;
+}
+.header .container .logo img {
+    width: 20%;
+    
+}
+.header .container .nav{
+    width: 60%;
+    list-style: none;
+    float: left;
+}
+.header .container .nav > li{
+    display: inline-block;
+    text-align: center;
+  
+}
+.header .nav > li > a{
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    color: rgb(0, 0, 0);    
+}
+.header .nav > li > a:after ,
+.header .nav > li > a.active:after{
+    content: " ";
+    margin-top: 2px;
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+
+}
+.header .nav > li > a.active:after{
+    width: 100%;
+}
+.header .nav > li > a:hover:after{
+    width: 100%;
+}   
+.drobdown-menu> a{
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #fff;
+
+} 
+.drobdown{
+    position: relative;
+}
+.drobdown-menu{
+    position: absolute;
+    width: 150px;
+    background-color: #6195ff;
+    padding: 10px 15px;
+    left: -60%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s opacity 0.5s;
+}
+.drobdown:hover .drobdown-menu{
+opacity: 1;
+visibility: visible;
+}

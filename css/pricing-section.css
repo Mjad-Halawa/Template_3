@@ -1,0 +1,52 @@
+/*pricing-section*/
+.pricing{
+    overflow: hidden;
+}
+.pricing-item{
+    border: 1px solid #e8e8e8 ;
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: 450px;
+    position: relative;
+    padding-bottom: 50px;
+}
+.pricing-title{
+    margin: 30px 0 50px 0;
+    text-transform: uppercase;
+    color: #999;
+}
+.pricing-cost{
+    border: 2px solid #3879fb;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    
+}
+.cost-desc{
+    font-size:8px ;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.pricing-cost{
+    margin-bottom: 30px;
+}
+.pricing-desc{
+    line-height: 40px;
+    margin-bottom: 30px;
+    color: rgb(123, 123, 123);
+}
+.btn-pricing{
+    padding: 10px 20px;
+    background:none;
+    color: #3879fb;
+    border:1px solid #3879fb;
+}
+.pricing-item:hover .pricing-title{
+    color: #3879fb;
+}
+.pricing-item:hover .cost-title, .pricing-item:hover .cost-desc{
+    color: #fff;
+}
